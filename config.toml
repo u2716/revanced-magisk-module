@@ -25,13 +25,16 @@ build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Twitch]
+enabled = true
 archive-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 
 [TikTok]
+enabled = true
 archive-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 included-patches = "'SIM spoof'"
 
 [Tumblr]
+enabled = true
 archive-dlurl = "https://www.apkmirror.com/apk/tumblr-inc/tumblr"
 
 [Reddit]
@@ -58,7 +61,7 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced Extended"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Custom package name' 'Enable debug logging'"
-build-mode = "both"
+build-mode = "root"
 version = "latest"
 patches-version = "v2.224.0-dev.9"
 integrations-version = "v0.151.0-dev.9"
@@ -72,7 +75,7 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced Extended"
 excluded-patches = "'Enable debug logging' 'Custom package name' 'Custom branding name YouTube' 'Custom branding icon YouTube' 'Custom branding heading'"
-build-mode = "both"
+build-mode = "root"
 version = "auto"
 patches-version = "v2.224.0-dev.9"
 integrations-version = "v0.151.0-dev.9"
