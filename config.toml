@@ -35,8 +35,7 @@ included-patches = "'SIM spoof'"
 
 [Tumblr]
 enabled = true
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.tumblr"
-included-patches = "'Fix old versions'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tumblr-inc/tumblr"
 
 [Reddit]
 enabled = false
