@@ -25,13 +25,14 @@ build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Twitch]
-enabled = false
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+archive-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 
 [TikTok]
-enabled = false
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+archive-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 included-patches = "'SIM spoof'"
+
+[Tumblr]
+archive-dlurl = "https://www.apkmirror.com/apk/tumblr-inc/tumblr"
 
 [Reddit]
 enabled = false
