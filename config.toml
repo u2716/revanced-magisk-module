@@ -58,26 +58,26 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-s
 [Music-Extended]
 enabled = true
 app-name = "Music"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "ainotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Custom package name' 'Enable debug logging'"
 build-mode = "module"
 version = "latest"
-patches-version = "v2.225.0-dev.9"
-integrations-version = "v0.152.0-dev.6"
+patches-version = "v4.8.0-dev.2"
+integrations-version = "v1.9.0-dev.1"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 
 [YouTube-Extended]
 enabled = true
 app-name = "YouTube"
-patches-source = "anddea/revanced-patches"
+patches-source = "inotia00/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced Extended"
 excluded-patches = "'Enable debug logging' 'Custom package name' 'Custom branding name YouTube' 'Custom branding icon YouTube' 'Custom branding heading'"
 build-mode = "module"
 version = "auto"
-patches-version = "v2.225.0-dev.9"
-integrations-version = "v0.152.0-dev.6"
+patches-version = "v4.8.0-dev.2"
+integrations-version = "v1.9.0-dev.1"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
