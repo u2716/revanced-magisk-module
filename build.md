@@ -1,6 +1,6 @@
-Tumblr: 34.4.0.109  
-Twitch: 16.9.1  
+Tumblr: 34.5.0.109  
 Music-Extended: 6.51.52  
+Twitch: 16.9.1  
 YouTube-Extended: 19.16.39  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -9,7 +9,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 Integrations: anddea/revanced-integrations-0.152.0-dev.7.apk  
-Patches: anddea/revanced-patches-2.225.0-dev.10.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.225.0-dev.10)
+Patches: anddea/revanced-patches-2.225.0-dev.11.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.225.0-dev.11)
 
 CLI: j-hc/revanced-cli-4.6.0-all.jar    
