@@ -119,8 +119,8 @@ config_update() {
 			fi
 		else
 			sources[$PATCHES_SRC]=0
-			if ! last_patches_url=$(gh_req "https://api.github.com/repos/${PATCHES_SRC}/releases/latest" - \
-				| jq -e -r '.assets[] | select(.name | endswith("jar")) | .name'); then
+			if ! last_patches_url=$(gh_req "https://api.github.com/repos/${PATCHES_SRC}/releases?per_page=1" - \
+				| jq -e -r '.[0].assets[] | select(.name | endswith("jar")) | .name'); then
 				abort oops
 			fi
 			last_patches=${last_patches_url##*/}
