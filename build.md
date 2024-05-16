@@ -1,5 +1,3 @@
-Tumblr: 34.5.0.109  
-Twitch: 16.9.1  
 Music-Extended: 7.01.52  
 YouTube-Extended: 19.16.39  
 
@@ -8,8 +6,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Integrations: anddea/revanced-integrations-0.152.0-dev.7.apk  
-Patches: anddea/revanced-patches-2.225.0-dev.11.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.225.0-dev.11)
+Integrations: anddea/revanced-integrations-0.152.0-dev.8.apk  
+Patches: anddea/revanced-patches-2.225.0-dev.13.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.225.0-dev.13)
 
 CLI: j-hc/revanced-cli-4.6.0-all.jar    
