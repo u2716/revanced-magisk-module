@@ -23,8 +23,8 @@ arch = "both"
 
 [Music-Extended]
 app-name = "Music"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
@@ -33,8 +33,8 @@ arch = "arm64-v8a"
 
 [YouTube-Extended]
 app-name = "YouTube"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
