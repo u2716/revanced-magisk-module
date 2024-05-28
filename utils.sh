@@ -55,11 +55,11 @@ get_rv_prebuilts() {
 		dir=${TEMP_DIR}/${dir,,}-rv
 		[ -d "$dir" ] || mkdir "$dir"
 
-		local rv_rel="https://api.github.com/repos/${src}/releases/"
-		if [ "$ver" ]; then rv_rel+="tags/${ver}"; else rv_rel+="latest"; fi
+		local rv_rel="https://api.github.com/repos/${src}/releases"
+		if [ "$ver" ]; then rv_rel+="/tags/${ver}"; else rv_rel+="?per_page=1"; fi
 
 		local resp asset url name file
-		resp=$(gh_req "$rv_rel" -) || return 1
+		resp=$(gh_req "$rv_rel" - | jq '.[0]') || return 1
 		asset=$(jq -e -r ".assets[] | select(.name | endswith(\"$ext\"))" <<<"$resp") || return 1
 		url=$(jq -r .url <<<"$asset")
 		name=$(jq -r .name <<<"$asset")
@@ -122,8 +122,8 @@ config_update() {
 			fi
 		else
 			sources[$PATCHES_SRC]=0
-			if ! last_patches=$(gh_req "https://api.github.com/repos/${PATCHES_SRC}/releases/latest" - \
-				| jq -e -r '.assets[] | select(.name | endswith("jar")) | .name'); then
+			if ! last_patches=$(gh_req "https://api.github.com/repos/${PATCHES_SRC}/releases?per_page=1" - \
+				| jq -e -r '.[0].assets[] | select(.name | endswith("jar")) | .name'); then
 				abort oops
 			fi
 			cur_patches=$(sed -n "s/.*Patches: ${PATCHES_SRC%%/*}\/\(.*\)/\1/p" build.md | xargs)
