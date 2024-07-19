@@ -58,11 +58,12 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 [Tumblr]
 enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tumblr-inc/tumblr"
+uptodown-dlurl = "https://tumblr.en.uptodown.com/android"
 
 [TikTok]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
-included-patches = "'SIM spoof'"
+included-patches = "'SIM spoof' 'Disable login requirement'"
 
 [Reddit-Extended]
 enabled = false
