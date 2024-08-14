@@ -45,6 +45,11 @@ included-patches = "'Visual preferences icons'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
+[Soundcloud]
+enabled = true
+apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud"
+uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
+
 [Twitter]
 enabled = false
 build-mode = "apk"
