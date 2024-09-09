@@ -47,6 +47,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Soundcloud]
 enabled = true
+apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 
 [Twitter]
