@@ -1,4 +1,3 @@
-Music-Extended: 7.17.51  
 TikTok: 32.5.3  
 Soundcloud: 2024.09.05-release  
 
@@ -7,12 +6,10 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-CLI: inotia00/revanced-cli-4.6.1-all.jar  
-Integrations: inotia00/revanced-integrations-1.13.1.apk  
-Patches: inotia00/revanced-patches-4.13.1.jar  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v4.13.1)
-
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.14.0-dev.9.apk  
-Patches: ReVanced/revanced-patches-4.14.0-dev.9.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.14.0-dev.9)  
+Integrations: ReVanced/revanced-integrations-1.14.0-dev.10.apk  
+Patches: ReVanced/revanced-patches-4.14.0-dev.10.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.14.0-dev.10)  
+
+Skipped:  
+Patches: inotia00/revanced-patches-4.13.1.jar    
