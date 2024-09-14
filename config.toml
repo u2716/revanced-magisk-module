@@ -46,7 +46,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Soundcloud]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 
@@ -66,7 +66,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/tumblr-inc/tumblr"
 uptodown-dlurl = "https://tumblr.en.uptodown.com/android"
 
 [TikTok]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 included-patches = "'SIM spoof' 'Disable login requirement'"
 
