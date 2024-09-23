@@ -52,7 +52,8 @@ uptodown-dlurl = https://youtube-music.en.uptodown.com/android"
 enabled = true
 build-mode = "apk"
 patches-version = "latest"
-apkmirror-durl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud"
+uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 
 [Twitter]
 enabled = false
