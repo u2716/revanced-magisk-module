@@ -26,7 +26,7 @@ enabled = true
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 patches-version = "dev"
-included-patches = "'Visual preferences icons for YouTube Music' 'Custom header for YouTube Music'"
+#included-patches = "'Visual preferences icons for YouTube Music' 'Custom header for YouTube Music'"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Enable debug logging'"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -41,7 +41,7 @@ enabled = true
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 patches-version = "dev"
-included-patches = "'Visual preferences icons for YouTube' 'Custom header for YouTube'"
+#included-patches = "'Visual preferences icons for YouTube' 'Custom header for YouTube'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Enable debug logging'"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -60,20 +60,25 @@ uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 [Twitter]
 enabled = false
 build-mode = "apk"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+patches-version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [Twitch]
 enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
+patches-version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
 [TikTok]
-enabled = false
+enabled = true
+build-mode = "apk"
+patches-version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
-included-patches = "'SIM spoof'"
+included-patches = "'SIM spoof' 'Disable login requirement'"
 
 [Reddit-Extended]
 enabled = false
