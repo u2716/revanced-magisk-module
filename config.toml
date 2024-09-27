@@ -78,6 +78,8 @@ build-mode = "apk"
 patches-version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+inc
 included-patches = "'SIM spoof' 'Disable login requirement'"
 
 [Reddit-Extended]
