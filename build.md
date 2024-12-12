@@ -1,7 +1,7 @@
 Music-Extended: 7.16.53  
 Twitch: 16.9.1  
 TikTok: 36.5.4  
-Soundcloud: 2024.11.20-release  
+Soundcloud: 2024.12.10-release  
 YouTube-Extended: 19.34.42  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
