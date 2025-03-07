@@ -1,6 +1,6 @@
 {
-  "version": "v19.44.39 (patches: dev.2)",
-  "versionCode": 169,
-  "zipUrl": "https://github.com/u2716/revanced-magisk-module/releases/download/169/youtube-revanced-extended-magisk-v19.44.39-all.zip",
+  "version": "v19.44.39 (patches: 5.4.2)",
+  "versionCode": 170,
+  "zipUrl": "https://github.com/u2716/revanced-magisk-module/releases/download/170/youtube-revanced-extended-magisk-v19.44.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/u2716/revanced-magisk-module/update/build.md"
 }
