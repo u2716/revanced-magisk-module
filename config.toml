@@ -104,7 +104,6 @@ arch = "arm64-v8a"
 enabled = true
 build-mode = "apk"
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-and-podcasts-amazon-fire-tablet-version"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [IconPackStudio]
