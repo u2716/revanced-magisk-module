@@ -1,4 +1,5 @@
 Music-Extended: 8.30.54  
+YouTube-Extended: 20.05.46  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
@@ -10,4 +11,4 @@ Patches: inotia00/patches-5.12.1-dev.7.rvp
 [Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.12.1-dev.7)  
 
 Skipped:  
-Patches: ReVanced/patches-5.42.1.rvp          
+Patches: ReVanced/patches-5.42.1.rvp            
