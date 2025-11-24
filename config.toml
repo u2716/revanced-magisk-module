@@ -108,5 +108,4 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 
 [IconPackStudio]
 enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-
-pack-studio/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
