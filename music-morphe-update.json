@@ -1,6 +1,6 @@
 {
   "version": "v8.40.54 (patches dev.9.mpp)",
-  "versionCode": 311,
-  "zipUrl": "https://github.com/u2716/revanced-magisk-module/releases/download/311/music-revanced-magisk-v8.40.54-arm64-v8a.zip",
+  "versionCode": 312,
+  "zipUrl": "https://github.com/u2716/revanced-magisk-module/releases/download/312/music-revanced-magisk-v8.40.54-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/u2716/revanced-magisk-module/update/build.md"
 }
