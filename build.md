@@ -13,4 +13,4 @@ Patches: MorpheApp/patches-1.14.0-dev.9.mpp 
 CLI: MorpheApp/morphe-cli-1.3.0-all.jar    
 
 Skipped:  
-Patches: ReVanced/patches-5.50.2.rvp                    
+Patches: ReVanced/patches-5.50.2.rvp                      
